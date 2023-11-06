@@ -1,0 +1,465 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "One Dark italic",
+                "scope": [
+                    "comment",
+                    "entity.other.attribute-name",
+                    "keyword",
+                    "markup.underline.link",
+                    "storage.modifier",
+                    "storage.type",
+                    "string.url",
+                    "variable.language.super",
+                    "variable.language.this"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "One Dark italic reset",
+                "scope": [
+                    "keyword.operator",
+                    "keyword.other.type",
+                    "storage.modifier.import",
+                    "storage.modifier.package",
+                    "storage.type.built-in",
+                    "storage.type.function.arrow",
+                    "storage.type.generic",
+                    "storage.type.java",
+                    "storage.type.primitive"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ],
+        "[Night Owl Light]": {
+            "textMateRules": [
+                {
+                    "name": "Comment",
+                    "scope": [
+                        "comment"
+                    ],
+                    "settings": {
+                        "foreground": "#bfdac0",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "name": "Keyword",
+                    "scope": [
+                        "keyword",
+                        "storage",
+                        "emphasis"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#e94343"
+                    }
+                },
+                {
+                    "name": "Function",
+                    "scope": [
+                        "entity.name.function",
+                        "support.function"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#1b7cd6"
+                    }
+                },
+                {
+                    "name": "Parameter",
+                    "scope": "variable.parameter",
+                    "settings": {
+                        "fontStyle": "underline"
+                    }
+                },
+                {
+                    "name": "Number",
+                    "scope": [
+                        "constant.numeric"
+                    ],
+                    "settings": {
+                        "foreground": "#94a11b"
+                    }
+                }
+            ]
+        },
+        "[GitHub Light Colorblind (Beta)]": {
+            "textMateRules": [
+                {
+                    "name": "Comment",
+                    "scope": [
+                        "comment"
+                    ],
+                    "settings": {
+                        "foreground": "#bfdac0",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "name": "Keyword",
+                    "scope": [
+                        "keyword",
+                        "storage",
+                        "emphasis"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#e94343"
+                    }
+                },
+                {
+                    "name": "Function",
+                    "scope": [
+                        "entity.name.function",
+                        "support.function"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#5658dc"
+                    }
+                },
+                {
+                    "name": "Parameter",
+                    "scope": "variable.parameter",
+                    "settings": {
+                        "fontStyle": "underline"
+                    }
+                },
+                {
+                    "name": "Number",
+                    "scope": [
+                        "constant.numeric"
+                    ],
+                    "settings": {
+                        "foreground": "#19a017"
+                    }
+                }
+            ]
+        },
+        "[Atom One Light]": {
+            "textMateRules": [
+                {
+                    "name": "Comment",
+                    "scope": [
+                        "comment"
+                    ],
+                    "settings": {
+                        "foreground": "#bfdac0",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "name": "Keyword",
+                    "scope": [
+                        "keyword",
+                        "storage",
+                        "emphasis"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#bed226"
+                    }
+                },
+                {
+                    "name": "Function",
+                    "scope": [
+                        "entity.name.function",
+                        "support.function"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#309acb"
+                    }
+                },
+                {
+                    "name": "Parameter",
+                    "scope": "variable.parameter",
+                    "settings": {
+                        "fontStyle": "underline"
+                    }
+                },
+                {
+                    "name": "Number",
+                    "scope": [
+                        "constant.numeric"
+                    ],
+                    "settings": {
+                        "foreground": "#19a017"
+                    }
+                }
+            ]
+        },
+        "[Better Solarized Light]": {
+            "textMateRules": [
+                {
+                    "name": "Comment",
+                    "scope": [
+                        "comment"
+                    ],
+                    "settings": {
+                        "foreground": "#bfdac0",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "name": "Keyword",
+                    "scope": [
+                        "keyword",
+                        "storage",
+                        "emphasis"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#bed226"
+                    }
+                },
+                {
+                    "name": "Function",
+                    "scope": [
+                        "entity.name.function",
+                        "support.function"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#309acb"
+                    }
+                },
+                {
+                    "name": "Parameter",
+                    "scope": "variable.parameter",
+                    "settings": {
+                        "fontStyle": "underline"
+                    }
+                },
+                {
+                    "name": "Number",
+                    "scope": [
+                        "constant.numeric"
+                    ],
+                    "settings": {
+                        "foreground": "#19a017"
+                    }
+                }
+            ]
+        },
+        "[Gruvbox Dark Hard]": {
+            "textMateRules": [
+                {
+                    "name": "Comment",
+                    "scope": [
+                        "comment"
+                    ],
+                    "settings": {
+                        "foreground": "#374037",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "name": "Keyword",
+                    "scope": [
+                        "keyword",
+                        "storage",
+                        "emphasis"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#e4d42aa4"
+                    }
+                },
+                {
+                    "name": "Function",
+                    "scope": [
+                        "entity.name.function",
+                        "support.function"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#2e96e0dc"
+                    }
+                },
+                {
+                    "name": "Parameter",
+                    "scope": "variable.parameter",
+                    "settings": {
+                        "fontStyle": "underline"
+                    }
+                },
+                {
+                    "name": "Number",
+                    "scope": [
+                        "constant.numeric"
+                    ],
+                    "settings": {
+                        "foreground": "#a7b433"
+                    }
+                }
+            ]
+        },
+        "[Atomize]": {
+            "textMateRules": [
+                {
+                    "name": "Comment",
+                    "scope": [
+                        "comment"
+                    ],
+                    "settings": {
+                        "foreground": "#374037",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "name": "Keyword",
+                    "scope": [
+                        "keyword",
+                        "storage",
+                        "emphasis"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#e4d42aa4"
+                    }
+                },
+                {
+                    "name": "Function",
+                    "scope": [
+                        "entity.name.function",
+                        "support.function"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#2e96e0dc"
+                    }
+                },
+                {
+                    "name": "Parameter",
+                    "scope": "variable.parameter",
+                    "settings": {
+                        "fontStyle": "underline"
+                    }
+                },
+                {
+                    "name": "Number",
+                    "scope": [
+                        "constant.numeric"
+                    ],
+                    "settings": {
+                        "foreground": "#a7b433"
+                    }
+                }
+            ]
+        },
+        "[One Monokai]": {
+            "textMateRules": [
+                {
+                    "name": "Comment",
+                    "scope": [
+                        "comment"
+                    ],
+                    "settings": {
+                        "foreground": "#374037",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "name": "Keyword",
+                    "scope": [
+                        "keyword",
+                        "storage",
+                        "emphasis"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#e4d42aa4"
+                    }
+                },
+                {
+                    "name": "Function",
+                    "scope": [
+                        "entity.name.function",
+                        "support.function"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#2e96e0dc"
+                    }
+                },
+                {
+                    "name": "Parameter",
+                    "scope": "variable.parameter",
+                    "settings": {
+                        "fontStyle": "underline"
+                    }
+                },
+                {
+                    "name": "Number",
+                    "scope": [
+                        "constant.numeric"
+                    ],
+                    "settings": {
+                        "foreground": "#a7b433"
+                    }
+                }
+            ]
+        },
+        "[Better Solarized Dark]": {
+            "textMateRules": [
+                {
+                    "name": "Comment",
+                    "scope": [
+                        "comment"
+                    ],
+                    "settings": {
+                        "foreground": "#374037",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "name": "Keyword",
+                    "scope": [
+                        "keyword",
+                        "storage",
+                        "emphasis"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#e4d42aa4"
+                    }
+                },
+                {
+                    "name": "Function",
+                    "scope": [
+                        "entity.name.function",
+                        "support.function"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold",
+                        "foreground": "#2e96e0dc"
+                    }
+                },
+                {
+                    "name": "Parameter",
+                    "scope": "variable.parameter",
+                    "settings": {
+                        "fontStyle": "underline"
+                    }
+                },
+                {
+                    "name": "Number",
+                    "scope": [
+                        "constant.numeric"
+                    ],
+                    "settings": {
+                        "foreground": "#a7b433"
+                    }
+                }
+            ]
+        },
+        "comments": ""
+    }
+}
